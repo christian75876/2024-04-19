@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+#sup{
+    background-color: rgb(70, 70, 70);
+    color: #fff;
+    height: 80px;
+    display: flex; 
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    margin-left: 50px;
+}
+
+#bajo{
+    background-color: rgb(218, 216, 216);
+    height: 50px;
+    display: flex;
+    align-items: center;    
+}
+
+a{
+    color: gray;
+    padding: 17px;
+}
+
+a:hover{
+    background-color: rgb(56, 56, 56);
+    color: #fff;
+}
